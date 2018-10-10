@@ -2,7 +2,7 @@ var http = require('http');
 
 http.createServer(function (request, response) {
     response.writeHead(200, {'Content-Type': 'text/plain'});
-    response.end('Hello everybody from Puppet Pipelines. Your Node.js application is working!\n\n\n');
+    response.end('Hello to the people from Puppet Pipelines. Your Node.js application is working!\n\n\n');
 }).listen(80);
 
 console.log('Server started');
