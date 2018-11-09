@@ -1,11 +1,4 @@
 var http = require('http');
-try{
-
-  false;
-
-}
-wrong();
-commnad();
 
 http.createServer(function (request, response) {
     response.writeHead(200, {'Content-Type': 'text/plain'});
