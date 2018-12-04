@@ -12,7 +12,6 @@ simonanderson/PFA_NodeJS_SampleApp:
     - sudo yum -y install epel-release
     - sudo yum -y install nodejs
     - sudo yum -y install npm
-    - npm install --global mocha
     - sudo setcap cap_net_bind_service=+ep `readlink -f \`which node\``
   PostInstall:
     - echo "PostInstall Starting."
