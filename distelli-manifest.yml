@@ -17,10 +17,4 @@ simonanderson/PFA_NodeJS_SampleApp_f:
     - echo "PostInstall Starting."
     - echo "Selenium tests failed."
     # - npm install
-  Exec:
-    - echo "Exec Starting."
-    - publicip=$(curl -s ident.me) || true
-    - 'echo "****************************************************************"'
-    - 'echo     "NodeJS application will start on: http://$publicip"'
-    - 'echo "****************************************************************"'
-    - exec node server.js
+
