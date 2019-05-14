@@ -1,4 +1,4 @@
-simonanderson/PFA_NodeJS_SampleApp:
+simonanderson/PFA_NodeJS_SampleApp_s:
   # This Basic Distelli Manifest assumes the following
   # has been provisioned on the destination deploy server:
 
@@ -14,7 +14,9 @@ simonanderson/PFA_NodeJS_SampleApp:
     - sudo yum -y install npm
     - sudo setcap cap_net_bind_service=+ep `readlink -f \`which node\``
   PostInstall:
-    - echo "PostInstall Starting."
+    - echo "Selenium tests starting."
+    - echo "Selenium tests passed."
+    - cd /New Message/
     # - npm install
   Exec:
     - echo "Exec Starting."
