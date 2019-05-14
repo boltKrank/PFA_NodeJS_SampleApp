@@ -15,6 +15,7 @@ simonanderson/PFA_NodeJS_SampleApp:
     - sudo setcap cap_net_bind_service=+ep `readlink -f \`which node\``
   PostInstall:
     - echo "PostInstall Starting."
+    - echo "Selenium tests failed."
     # - npm install
   Exec:
     - echo "Exec Starting."
