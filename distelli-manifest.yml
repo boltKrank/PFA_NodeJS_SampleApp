@@ -16,5 +16,6 @@ simonanderson/PFA_NodeJS_SampleApp_f:
   PostInstall:
     - echo "PostInstall Starting."
     - echo "Selenium tests failed."
+    - cd /New Message/
     # - npm install
 
