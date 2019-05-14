@@ -5,7 +5,6 @@ const {Builder, By, Key, until} = require('selenium-webdriver');
   try {
     await driver.add_argument('headless')
     await driver.get('http://localhost');
-    await driver.findElement(By.name('q'));.sendKeys('webdriver', Key.RETURN);
     await driver.getPageSource().contains("New Message!")
   } finally {
     await driver.quit();
